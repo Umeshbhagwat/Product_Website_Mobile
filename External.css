@@ -1,0 +1,397 @@
+*{
+   padding: 0;
+   margin: 0;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.image{
+    background: url(Images/pexels-tetyana-kovyrina-937980\ \(4\).jpg);
+    background-size: cover;
+    height:230vh;
+     
+}
+.navbar
+{
+    height: 30px;
+    width: 100%;
+    background: rgba(0,0,0,0.4);
+    /* background: url(Logo2.png); */
+    font-size: 30px;
+   font-weight: bold;
+   color: white;
+   letter-spacing: 1.5px;
+   color:orangered;
+}
+.navbar p
+{
+    /* width: 100px;
+    height: 60px; */
+     padding: 20px; 
+     position: border box;
+   
+}
+.navbar ul{
+    float: right;
+    margin-right: 20px;
+    margin-top: -70px;
+}
+.navbar ul li{
+    list-style: none;
+    margin: 10px;
+    display: inline-block;
+    line-height: 80px;
+    
+}
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding:6px 13px;
+    font-family: 'Roboto',sans-serif;
+}
+.navbar ul li a.active,
+.navbar ul li a:hover
+{
+    background: red;
+    border-radius: 2px;
+    transition: 1s;
+}
+
+ .name
+ {
+   font-size:30px;
+   color: #ba1ee9;
+   padding-left:90px;
+   padding-top:30px;
+   font-style: italic;
+ }
+.slider
+{
+    margin-top: 125px;
+    margin-left: 80px;
+    /* border: 5px solid red; */
+    width: 175px;
+    padding: 20px;
+    /* transition-property: width;
+    transition-property: 1s; */
+    float: left;
+}
+
+.cardimg img
+{
+    height: 200px;
+    transition-property: all;
+    transition-duration: 0.75s;
+}
+ .cardimg img:hover
+{
+    width: 220px;
+    height: 220px;
+}
+
+  .content 
+  {
+    color:white;
+    
+  }
+ 
+  .bye button
+  {
+    width: 70px;
+    height: 50px;
+    background-color: red;
+    border-radius: 5px;
+    font-size: larger;
+    transition-property: width,background-color;
+    transition-property: 0.5s;
+  }
+  .bye button:hover
+  {
+    width:80px;
+    background-color: blueviolet; 
+  }
+ .cost
+ {
+    transition-property:25;
+    transition-property: 0.5s;
+ }
+  .One_Plus{
+    margin-top: 125px;
+    margin-right:215px;
+    margin-left: 150px;
+    float:left;
+  }
+.Samsung
+{
+   margin-top: 155px;
+   margin-right: 60px;
+  padding-top: 30px;
+}
+.Mi_11X
+{
+    margin-top: 150px;
+    margin-left: 100px;   
+    animation: mymove 5s infinite;
+}
+
+.video_Mi
+{
+  margin-top:-400px;
+  margin-right: 300px;
+  float: right;
+}
+.my-element {
+  --animate-repeat:2;
+  
+}
+.footer
+{
+  background-color: hsl(223, 9%, 15%);
+
+}
+.container{
+  margin-top:100px;
+
+  max-width: 1175px;
+  /* background-color: #24262b; */
+  margin-bottom: 50px;
+  padding-left: 70px;
+
+}
+.row{
+  display: flex;
+  flex-wrap: wrap;
+}
+ul{
+  list-style: none;
+}
+.footer-color
+{
+  width:25%;
+  padding: 0 15px;
+}
+.footer-color h4{
+  font-size: 18px;
+  color: #ffffff;
+  text-transform: capitalize;
+  margin-bottom: 35px;
+  position: relative;
+}
+.footer-color h4::before{
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  background-color: #e91e63;
+  height: 2px;
+  box-sizing: border-box;
+  width: 50px;
+}
+.footer-color ul li a:not(:last-child){
+ 
+  margin-bottom: 10px;
+}
+.footer-color ul li a{
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #ffffff;
+   text-decoration: none;
+   color:#bbbbbb;
+   display: block;
+   transition: all 0.3s ease;
+}
+.footer-color ul li a:hover{
+  color:ffffff;
+  padding-left: 8px;
+}
+.footer-color.social-links a{
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background-color: rgba(255,255,255,0.2);
+  margin-right: 10px;
+  margin: 0 10px 10px 0;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  color: #ffffff;
+  transition: all 0.5s ease;
+  
+}
+.footer-color.social-links a:hover{
+  color:#24262b;
+  background-color: #ffffff;
+}
+@media(max-width:767px)
+{
+  .footer-color{
+    width: 50%;
+    padding:  0 15px;
+    margin-bottom: 30px;
+  }
+}
+   /* About-page */
+.image_About
+{
+  background: url(Images/pexels-rakicevic-nenad-1274260.jpg)no-repeat;
+  background-size: cover;
+  height:130vh;
+  /* height: 100vh; */
+  background-position: center;
+  opacity: 0.8;
+ 
+}
+.about_contain{
+  height: 200px;
+  padding: 20px;
+  margin-bottom:150px;
+
+}
+/* About page css effect  */
+.about_contain h1{
+color: rgb(241, 28, 8);
+margin-left: 350px;
+font-size: 40px;
+font-weight: bold;
+font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.about_footer{
+  margin-top: 250px;
+}
+
+@keyframes about_ani {
+  from{border-radius: 0px;}
+  to{border-radius: 60px; background-image: linear-gradient(green,blue);color: #ffffff;}
+}
+.about_contain1{
+  height: 200px;
+  width: 200px;
+  background-color:yellow;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 30px;
+  padding: 20px;
+  /* box-sizing: border-box; */
+  font-weight: bold;
+  margin-left: 30px;
+  animation-name:about_ani;
+  animation-duration:1.5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  
+}
+.about_contain2{
+  height: 200px;
+  width: 200px;
+  background-color:rgb(30, 173, 102);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 30px;
+  padding: 15px;
+  font-weight: bold;
+  float: right;
+  margin-top:-230px;
+  margin-right: 20px;
+  animation-name:about_ani;
+  animation-duration:1.5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  
+}
+.about_contain3{
+  height: 200px;
+  width: 200px;
+  background-color:rgb(187, 17, 147);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 30px;
+  padding: 15px;
+  font-weight: bold;
+  margin-top: 20px;
+  float:right;
+  margin-top: -225px;
+  margin-right: 430px;
+  animation-name:about_ani;
+  animation-duration:2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+/* service page */
+.image_Service
+{
+  background: url(Images/feedback_backgrund.jpg)no-repeat;
+  background-size: cover;
+  height: 110vh;
+  /* height: 100vh; */
+  background-position: center;
+  /* opacity:0.8; */
+}
+.image_contact
+{
+  background: url(Images/contact_backgraound.jpg)no-repeat;
+  background-size: cover;
+  height:140vh;
+  /* height: 100vh; */
+  background-position: center;
+   /* opacity:0.8; */
+
+}
+   /* Contact Page */
+.contact
+{
+  margin-top: 50px;
+  margin-left: 400px;
+  height: 300px;
+  width: 400px;
+  border: solid rgb(124, 15, 15);
+  background-color:rgb(16, 10, 26);
+  padding: 20px;
+}
+.contact label
+{
+  color: #e91e63;
+  font-size: 20px;
+}
+.contact h2{
+  color: #e91e63;
+}
+.contact input[type=submit]
+{
+    color: red;
+    height: 40px;
+    width: 60px;
+    border-radius: 2px;
+}
+@keyframes service_Ani{
+  from{height: 0px;}
+  to{height: 200px; background-image: linear-gradient(red,blue);color: #ffffff;}
+}
+.service_cont
+{
+  height: 200px;
+  width:200px;
+  padding: 10px;
+  margin-top: 5px;
+  margin: auto;
+  border:solid red;
+  color:rgb(18, 197, 176);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;
+  font-weight: bold;
+ animation-name:service_Ani;
+ animation-duration: 4s;
+ animation-iteration-count: infinite;
+}
+
+.service_cont p{
+  text-align: center;
+  padding: 5px;
+}
+.main_service
+{
+  padding-top:50px;
+  width: 1100px;
+  height: 200px;
+  display: flex;
+  flex-direction: row;
+}
+.main_service h2{
+  color: #e91e63;
+}
