@@ -234,7 +234,7 @@ ul{
 {
   background: url(Images/pexels-rakicevic-nenad-1274260.jpg)no-repeat;
   background-size: cover;
-  height:130vh;
+  height:120vh;
   /* height: 100vh; */
   background-position: center;
   opacity: 0.8;
@@ -243,7 +243,10 @@ ul{
 .about_contain{
   height: 200px;
   padding: 20px;
-  margin-bottom:150px;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 
 }
 /* About page css effect  */
@@ -256,7 +259,7 @@ font-family: Georgia, 'Times New Roman', Times, serif;
 
 }
 .about_footer{
-  margin-top: 250px;
+  margin-top: 50px;
 }
 
 @keyframes about_ani {
@@ -272,7 +275,7 @@ font-family: Georgia, 'Times New Roman', Times, serif;
   padding: 20px;
   /* box-sizing: border-box; */
   font-weight: bold;
-  margin-left: 30px;
+  /* margin-left: 30px; */
   animation-name:about_ani;
   animation-duration:1.5s;
   animation-iteration-count: infinite;
@@ -287,9 +290,9 @@ font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 30px;
   padding: 15px;
   font-weight: bold;
-  float: right;
+  /* float: right;
   margin-top:-230px;
-  margin-right: 20px;
+  margin-right: 20px; */
   animation-name:about_ani;
   animation-duration:1.5s;
   animation-iteration-count: infinite;
@@ -304,10 +307,10 @@ font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 30px;
   padding: 15px;
   font-weight: bold;
-  margin-top: 20px;
+  /* margin-top: 20px;
   float:right;
   margin-top: -225px;
-  margin-right: 430px;
+  margin-right: 430px; */
   animation-name:about_ani;
   animation-duration:2s;
   animation-iteration-count: infinite;
