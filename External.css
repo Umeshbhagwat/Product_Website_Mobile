@@ -232,7 +232,7 @@ ul{
    /* About-page */
 .image_About
 {
-  background: url(Images/pexels-rakicevic-nenad-1274260.jpg)no-repeat;
+  background: url(Images/About_Back.jpg)no-repeat;
   background-size: cover;
   height:120vh;
   /* height: 100vh; */
@@ -264,7 +264,7 @@ font-family: Georgia, 'Times New Roman', Times, serif;
 
 @keyframes about_ani {
   from{border-radius: 0px;}
-  to{border-radius: 60px; background-image: linear-gradient(green,blue);color: #ffffff;}
+  to{border-radius: 30px; background-image: linear-gradient(green,blue);color: #ffffff;}
 }
 .about_contain1{
   height: 200px;
@@ -364,7 +364,7 @@ font-family: Georgia, 'Times New Roman', Times, serif;
 }
 @keyframes service_Ani{
   from{height: 0px;}
-  to{height: 200px; background-image: linear-gradient(red,blue);color: #ffffff;}
+  to{height: 200px; background-image: linear-gradient(rgb(34, 144, 81),rgb(106, 106, 150));color: #ffffff;}
 }
 .service_cont
 {
