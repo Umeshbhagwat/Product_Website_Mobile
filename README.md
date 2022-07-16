@@ -7,8 +7,6 @@
  ----
 ![Capture](https://user-images.githubusercontent.com/96167336/178998039-c3c3ced9-a2ab-424f-8e24-12549a3f51d4.PNG)
 ----
-![Capture_Service](https://user-images.githubusercontent.com/96167336/179365860-6bd945a8-481f-4164-8131-9b1d525e7dc0.PNG)
-----
 ![VideoSS](https://user-images.githubusercontent.com/96167336/178998093-bf3e8840-be77-48e9-ac75-cfe29d93d022.PNG)
 -----
  # **Fetures of Our website**
